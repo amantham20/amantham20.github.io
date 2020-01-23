@@ -1,0 +1,39 @@
+* {
+    /* font-family: 'Nunito', sans-serif; */
+    Font-family: Rockwell;
+    font-style: normal;
+    font-weight: lighter;
+    margin: 0 0 0 0;
+}
+
+html {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(45deg, rgba(0, 0, 0, 1) 8%, rgba(47, 45, 253, 1) 80%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.txtmain {
+    padding-left: 40px;
+    /* line-height: 0.9; */
+}
+
+.rest {
+    padding-left: 350px;
+}
+
+.top1,
+.bottom1 {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+.top2,
+.bottom2 {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.top3,
+.bottom3 {
+    color: rgba(255, 255, 255, 0.3) !important;
+}
