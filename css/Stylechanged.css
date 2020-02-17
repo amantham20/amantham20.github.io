@@ -170,7 +170,7 @@ body {
 .el__text_P {
     font-size: 23px;
     color: #fff;
-    padding-right: 30px;
+    padding-right: 50px;
 }
 
 .el__close-btn {
@@ -371,7 +371,7 @@ body {
 
 .el:nth-child(3) .el__bg:before {
     transition-delay: 0.2s;
-    background-image: url("Images_cr/subpages/aerial-view-of-buildigns-1642125.jpg");
+    background-image: url("../images/IMG_0270.CR2.jpg");
 }
 
 .el:nth-child(4) {
@@ -419,7 +419,7 @@ body {
 
 .el:nth-child(5) .el__bg:before {
     transition-delay: 0.4s;
-    background-image: url("Images_cr/subpages/person-holding-black-pen-1109541.jpg");
+    background-image: url("../images/20180324144435_IMG_0330-01.jpeg");
 }
 
 .el:hover .el__bg:after {

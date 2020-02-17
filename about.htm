@@ -58,8 +58,12 @@
 
 
 <script>
-    var d = new Date();
-    document.getElementById("demo").innerHTML = "Age " + (d.getTime() - 1039353600000) + " milliseconds old";
+    function updateClock() {
+        var d = new Date();
+        document.getElementById("demo").innerHTML = "Age " + (d.getTime() - 1039353600000) + " milliseconds old";
+        setTimeout(updateClock, 1);
+    }
+    updateClock();
 </script>
 
 </html>
