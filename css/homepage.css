@@ -14,13 +14,18 @@ html {
     height: 100%;
 }
 
+.txt {
+    color: #ffffff;
+    font-size: 5vw;
+}
+
 .txtmain {
     padding-left: 40px;
     /* line-height: 0.9; */
 }
 
 .rest {
-    padding-left: 350px;
+    padding-left: 22vw;
 }
 
 .top1,

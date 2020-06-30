@@ -27,8 +27,8 @@
 
         <div class="data">
             <p id="demo"></p>
-            <p> Address 43°37'19.0"N 84°11'36.2"W </p>
-            <p>Phone Number 5.09784564E10 / 5.152 + 13 </p>
+            <p> Address 43.6156° N, 84.2472° W -ish</p>
+            <p>Phone Number (5.09784564E10 / 5.152 + 15) ± 50 </p>
         </div>
 
     </div>
@@ -37,11 +37,11 @@
 
 
     <div class="socials">
-        <img src="images/iconfinder_Circled_Twitter_svg_5279123.png" alt="Twitter">
+        <a href=""><img src="images/iconfinder_Circled_Twitter_svg_5279123.png" alt="Twitter"></a>
         <img src="images/iconfinder_Circled_Reddit_svg_5279117.png" alt="reddit">
         <img src="images/github-logo.png" alt="GitHub">
         <img src="images/iconfinder_Circled_Instagram_svg_5279112.png" alt="instgram">
-        <img src="images/iconfinder_Circled_Instagram_svg_5279112.png" alt="Facebook">
+        <img src="images/" alt="Facebook">
 
 
 
@@ -60,7 +60,7 @@
 <script>
     function updateClock() {
         var d = new Date();
-        document.getElementById("demo").innerHTML = "Age " + (d.getTime() - 1039353600000) + " milliseconds old";
+        document.getElementById("demo").innerHTML = "Age " + (d.getTime() - 1039353600000) + " ± 20,000 milliseconds old";
         setTimeout(updateClock, 1);
     }
     updateClock();

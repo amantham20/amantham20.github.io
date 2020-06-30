@@ -323,7 +323,7 @@ body {
 
 .el:nth-child(1) .el__bg:before {
     transition-delay: 0s;
-    background-image: url("Images_cr/subpages/15011151177_6c579f00f6_b.jpg");
+    background-image: url("../images/microsoft-surface-studio-2-perspective-left-light.jpg");
 }
 
 .el:nth-child(2) {

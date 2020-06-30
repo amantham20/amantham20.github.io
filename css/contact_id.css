@@ -1,0 +1,103 @@
+* {
+    /* font-family: 'Nunito', sans-serif; */
+    Font-family: Rockwell;
+    font-style: normal;
+    font-weight: lighter;
+    margin: 0 0 0 0;
+}
+
+html {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(75deg, rgba(0, 0, 0, 1) 20%, #CA7968 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.txt {
+    color: #ffffff;
+}
+
+.txtmain {
+    padding-left: 40px;
+    /* line-height: 0.9; */
+    padding-top: 15vh;
+}
+
+.pre-text {
+    font-size: 7vw;
+}
+
+.name {
+    font-size: 10vw;
+}
+
+.content {
+    padding-top: 30px;
+}
+
+.block {
+    height: 50vw;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: white;
+    font-size: 5vh;
+    text-decoration: none !important;
+}
+
+.contact {
+    background: linear-gradient(147deg, #F4D03F 0%, #16A085 100%);
+}
+
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
+
+.snapchat {
+    background: #FFFC00;
+    -webkit-text-stroke: 2px black;
+    font-style: oblique;
+}
+
+.github {
+    background: black;
+}
+
+.linkedin {
+    background: #0077b5;
+}
+
+.discord {
+    background: #7289da;
+}
+
+.twitter {
+    background: #00acee;
+}
+
+.facebook {
+    background: #3b5998;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.end {
+    color: white;
+    font-size: 2.5vh;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}

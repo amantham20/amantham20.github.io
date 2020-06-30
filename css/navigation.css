@@ -8,15 +8,13 @@
     display: inline-block;
     position: relative;
     opacity: 0.75;
+    Font-family: Rockwell !important;
+    font-style: normal;
+    font-weight: lighter;
 }
 
 .navbar {
-    padding: 20px 10px;
-}
-
-.txt {
-    color: #ffffff;
-    font-size: 80px;
+    padding: 30px 30px;
 }
 
 .nav-link:hover {

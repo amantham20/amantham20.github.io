@@ -1,0 +1,91 @@
+        @import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+        .bigtxt {
+            font-family: 'Nunito', sans-serif;
+            font-style: normal;
+            font-weight: lighter;
+            margin: 0 0 0 0;
+        }
+        
+        html {
+            background: rgb(0, 0, 0);
+            background: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgb(89, 161, 47) 100%);
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+        
+        p {
+            color: white;
+            font-size: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        
+        .mailid:hover {
+            color: transparent;
+            -webkit-text-stroke: 1px white;
+            -webkit-transition: color .35s;
+            /* transition: color .35s;*/
+        }
+        
+        .mailid {
+            text-decoration: underline;
+        }
+        
+        h1 {
+            color: white;
+            font-size: 76px;
+        }
+        
+        h2 {
+            color: rgba(255, 255, 255, 0.71);
+            font-size: 52px;
+            padding-top: 10px;
+        }
+        
+        .mainpage {
+            padding-left: 50px;
+        }
+        
+        .data {
+            padding-top: 20px;
+        }
+        
+        .socials img {
+            height: 80px;
+            width: auto;
+            filter: invert(1);
+            padding: 5px;
+        }
+        
+        .socials {
+            padding-top: 50px;
+            padding-left: 40px;
+        }
+        
+        .logo {
+            position: absolute;
+            right: 50px;
+            top: 70px;
+            height: 350px;
+            width: auto;
+            border-radius: 20px;
+            box-shadow: 12px 12px 40px rgba(0, 0, 0, 0.6), -12px -12px 30px rgba(255, 255, 255, 0.6);
+        }
+        
+        .bigtxt {
+            font-size: 7em !important;
+            text-transform: uppercase;
+            padding-left: 50px;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a {
+            color: white;
+        }
+        /*----------------------------------------------------------------------*/
+        /*----------------------------------------------------------------------*/
+        /*----------------------------------------------------------------------*/
