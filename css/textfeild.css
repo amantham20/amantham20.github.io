@@ -1,70 +1,176 @@
-.form__group {
-    position: relative;
-    padding: 15px 0 0;
-    margin-top: 10px;
-    width: 50%;
+.namer {
+    max-width: 400px;
+    display: inline-block;
+    padding-bottom: 20px;
+    margin-left: 30px;
 }
 
-.form__field {
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: lighter;
-    width: 100%;
+.namer input {
     border: 0;
-    border-bottom: 2px solid #9b9b9b;
-    outline: 0;
-    font-size: 1.3rem;
-    color: #fff;
-    padding: 7px 0;
+    border-bottom: 2px solid #ffffff;
+    width: 100%;
+    font-size: 6vw;
+    line-height: 35px;
+    height: 90px;
+    text-align: center;
+    padding: 10px 10px 10px 3px;
     background: transparent;
-    transition: border-color 0.2s;
-}
-
-.form__field::placeholder {
-    color: transparent;
-}
-
-.form__field:placeholder-shown~.form__label {
-    font-size: 1.3rem;
-    cursor: text;
-    top: 20px;
-}
-
-.form__label {
+    color: #ffffff59;
+    /*---------------------------------*/
     font-family: 'Nunito', sans-serif;
     font-style: normal;
     font-weight: lighter;
-    position: absolute;
-    top: 0;
-    display: block;
-    transition: 0.2s;
-    font-size: 1rem;
-    color: #9b9b9b;
 }
 
-.form__field:focus {
-    padding-bottom: 6px;
-    font-weight: 700;
-    border-width: 3px;
-    /* border-image: linear-gradient(to right, #11998e, #38ef7d); */
-    border-image: white;
-    border-image-slice: 1;
+.namer input:focus {
+    outline: 0;
+    color: #ffffff;
 }
 
-.form__field:focus~.form__label {
+.namer input::placeholder {
+    color: #c4c4c4;
+    font-size: 3vw;
+}
+
+.details input::placeholder {
+    font-size: 2vw;
+}
+
+
+/*----------------=== =========================*/
+
+.button_cont {
+    margin-top: 3%;
+    margin-left: 25%;
+}
+
+.submitbtn {
+    border-radius: 4px;
+    background-image: linear-gradient(45deg, #37bcda 40%, #71348d 100%);
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.submitbtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.4s;
+}
+
+.submitbtn span:after {
+    content: '\00bb';
     position: absolute;
+    opacity: 0;
     top: 0;
-    display: block;
-    transition: 0.2s;
-    font-size: 1rem;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.submitbtn:hover span {
+    padding-right: 25px;
+}
+
+.submitbtn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+/*---------------------------------------------------*/
+
+
+/*---------------------------------------------------*/
+
+
+/*---------------------------------------------------*/
+
+
+/*---------------------------------------------------*/
+
+
+/*---------------------------------------------------*/
+
+.content {
+    padding-top: 30px;
+    padding-left: 100px;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    display: inline-block;
+}
+
+.block {
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
     color: white;
-    font-weight: 700;
+    font-size: 5vh;
+    text-decoration: none !important;
 }
 
+.contact {
+    background: linear-gradient(147deg, #F4D03F 0%, #16A085 100%);
+}
 
-/* reset input */
+.instagram {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
 
-.form__field:required,
-.form__field:invalid {
-    box-shadow: none;
+.snapchat {
+    background: #FFFC00;
+    -webkit-text-stroke: 1px black;
+    font-style: oblique;
+}
+
+.github {
+    background: black;
+}
+
+.linkedin {
+    background: #0077b5;
+}
+
+.discord {
+    background: #7289da;
+}
+
+.twitter {
+    background: #00acee;
+}
+
+.facebook {
+    background: #3b5998;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.end {
+    color: white;
+    font-size: 2.5vh;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }

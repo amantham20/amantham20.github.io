@@ -6,19 +6,25 @@
             margin: 0 0 0 0;
         }
         
+        .front-text {
+            padding-left: 45px;
+        }
+        
         html {
             background: rgb(0, 0, 0);
             background: linear-gradient(45deg, rgba(0, 0, 0, 1) 0%, rgb(89, 161, 47) 100%);
             background-repeat: no-repeat;
             background-size: cover;
-            height: 100vh;
+            /* height: 100%; */
         }
         
-        p {
-            color: white;
-            font-size: 25px;
-            padding-top: 10px;
-            padding-bottom: 10px;
+        .form {
+            margin-top: 20%;
+            margin-bottom: 10%;
+        }
+        
+        .submit {
+            display: inline;
         }
         
         .mailid:hover {
@@ -34,13 +40,16 @@
         
         h1 {
             color: white;
-            font-size: 76px;
+            font-size: 2vw;
         }
         
         h2 {
             color: rgba(255, 255, 255, 0.71);
-            font-size: 52px;
+            font-size: 3vw;
             padding-top: 10px;
+            font-family: 'Nunito', sans-serif;
+            font-style: normal;
+            font-weight: lighter;
         }
         
         .mainpage {
@@ -74,17 +83,45 @@
         }
         
         .bigtxt {
-            font-size: 7em !important;
+            font-size: 7vw !important;
+            text-transform: uppercase;
+            display: inline;
+        }
+        
+        .frmtxt {
+            font-size: 7vw !important;
             text-transform: uppercase;
             padding-left: 50px;
+            display: inline;
+            font-family: 'Nunito', sans-serif;
+            font-style: normal;
+            font-weight: lighter;
+            text-align: center !important;
+        }
+        
+        .frm1 {
+            padding-left: 15vw;
         }
         
         a {
             text-decoration: none;
+            color: white;
         }
         
-        a {
+        p {
             color: white;
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+            font-style: normal;
+            font-weight: lighter;
+        }
+        
+        .end {
+            color: white;
+            text-align: center;
+            font-family: 'Nunito', sans-serif;
+            font-style: normal;
+            font-weight: lighter;
         }
         /*----------------------------------------------------------------------*/
         /*----------------------------------------------------------------------*/
