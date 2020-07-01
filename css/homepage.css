@@ -42,3 +42,9 @@ html {
 .bottom3 {
     color: rgba(255, 255, 255, 0.3) !important;
 }
+
+p {
+    color: white;
+    margin-left: 20px;
+    margin-top: 100px;
+}
