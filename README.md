@@ -1,2 +1,0 @@
-# aman
-MY personal resume
