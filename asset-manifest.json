@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e941838.css",
-    "main.js": "/static/js/main.da2b9815.js",
+    "main.css": "/static/css/main.47dea9a2.css",
+    "main.js": "/static/js/main.57359ffc.js",
     "static/media/cv.pdf": "/static/media/cv.1676dcdc83730930d888.pdf",
     "static/media/resume_new.pdf": "/static/media/resume_new.9257b9d4169a51beb4a6.pdf",
     "static/media/Aman Logo.png": "/static/media/Aman Logo.6515b02fc765e7a376f9.png",
     "index.html": "/index.html",
-    "main.1e941838.css.map": "/static/css/main.1e941838.css.map",
-    "main.da2b9815.js.map": "/static/js/main.da2b9815.js.map"
+    "main.47dea9a2.css.map": "/static/css/main.47dea9a2.css.map",
+    "main.57359ffc.js.map": "/static/js/main.57359ffc.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e941838.css",
-    "static/js/main.da2b9815.js"
+    "static/css/main.47dea9a2.css",
+    "static/js/main.57359ffc.js"
   ]
 }
