@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1050cfea.css",
-    "main.js": "/static/js/main.8f5dc3ce.js",
+    "main.js": "/static/js/main.35a5316a.js",
     "static/media/cv.pdf": "/static/media/cv.1676dcdc83730930d888.pdf",
     "static/media/resume_new.pdf": "/static/media/resume_new.9257b9d4169a51beb4a6.pdf",
     "static/media/Aman Logo.png": "/static/media/Aman Logo.6515b02fc765e7a376f9.png",
@@ -11,10 +11,10 @@
     "static/media/notification.ttf?s3g3t9": "/static/media/notification.c5d9251ea82e42f75381.ttf",
     "index.html": "/index.html",
     "main.1050cfea.css.map": "/static/css/main.1050cfea.css.map",
-    "main.8f5dc3ce.js.map": "/static/js/main.8f5dc3ce.js.map"
+    "main.35a5316a.js.map": "/static/js/main.35a5316a.js.map"
   },
   "entrypoints": [
     "static/css/main.1050cfea.css",
-    "static/js/main.8f5dc3ce.js"
+    "static/js/main.35a5316a.js"
   ]
 }
