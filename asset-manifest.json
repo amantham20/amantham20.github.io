@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.1050cfea.css",
-    "main.js": "/static/js/main.35a5316a.js",
+    "main.css": "/static/css/main.688bdd74.css",
+    "main.js": "/static/js/main.a2b13db3.js",
     "static/media/cv.pdf": "/static/media/cv.1676dcdc83730930d888.pdf",
-    "static/media/resume_new.pdf": "/static/media/resume_new.9257b9d4169a51beb4a6.pdf",
+    "static/media/resume_new.pdf": "/static/media/resume_new.11e2eb5072e3eb89ea95.pdf",
     "static/media/Aman Logo.png": "/static/media/Aman Logo.6515b02fc765e7a376f9.png",
     "static/media/notification.svg?s3g3t9": "/static/media/notification.5d0158671dd860c714c4.svg",
     "static/media/notification.eot": "/static/media/notification.3657084dc0419605a91c.eot",
     "static/media/notification.woff?s3g3t9": "/static/media/notification.c392cd33d9d9de730f9d.woff",
     "static/media/notification.ttf?s3g3t9": "/static/media/notification.c5d9251ea82e42f75381.ttf",
     "index.html": "/index.html",
-    "main.1050cfea.css.map": "/static/css/main.1050cfea.css.map",
-    "main.35a5316a.js.map": "/static/js/main.35a5316a.js.map"
+    "main.688bdd74.css.map": "/static/css/main.688bdd74.css.map",
+    "main.a2b13db3.js.map": "/static/js/main.a2b13db3.js.map"
   },
   "entrypoints": [
-    "static/css/main.1050cfea.css",
-    "static/js/main.35a5316a.js"
+    "static/css/main.688bdd74.css",
+    "static/js/main.a2b13db3.js"
   ]
 }
