@@ -22,10 +22,10 @@ const Footer = () => {
 
 
           <ul className='permalinks'>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Expeiriences</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experiences</a></li>
+            <li><a href="#contact">Contact</a></li>
           </ul>
 
           <div className='footer__socials'>
@@ -40,7 +40,7 @@ const Footer = () => {
             <div className='build_with'><h5>Built with &nbsp;</h5> <BsFillHeartFill className='icon__end icon__end1'/> <h5> &nbsp; Fueled by&nbsp;</h5><BiCoffee  className='icon__end icon__end2'/></div>
           <div className="footer__copyright">
 
-            <small>&copy; 2022 Aman Dhruva Thamminana</small> <br />
+            <small>&copy; 2023 Aman Dhruva Thamminana</small> <br />
             <small>v {data.version}</small>
             
           </div>
