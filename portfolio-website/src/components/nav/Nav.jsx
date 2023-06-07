@@ -7,6 +7,8 @@ import {AiOutlineUser} from 'react-icons/ai'
 import {BiBook} from 'react-icons/bi'
 import {BiMessageSquareDetail} from 'react-icons/bi'
 
+import { HashLink } from 'react-router-hash-link';
+
 
 import { useState } from 'react'
 
@@ -73,10 +75,10 @@ const Nav = () => {
       <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about'? 'active': ''}> <AiOutlineUser /></a>
       <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience'? 'active': ''}> <BiBook /></a>
       <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact'? 'active': ''}> <BiMessageSquareDetail /></a> */}
-      <a href='#' onClick={() => setActiveNav('#home')} className={activeNav === '#home'? 'active': ''}> <AiOutlineHome /></a>
-      <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about'? 'active': ''}> <AiOutlineUser /></a>
-      <a href='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience'? 'active': ''}> <BiBook /></a>
-      <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact'? 'active': ''}> <BiMessageSquareDetail /></a>
+      <HashLink to='#' onClick={() => setActiveNav('#home')} className={activeNav === '#home'? 'active': ''}> <AiOutlineHome /></HashLink>
+      <HashLink to='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about'? 'active': ''}> <AiOutlineUser /></HashLink>
+      <HashLink to='#experience' onClick={() => setActiveNav('#experience')} className={activeNav === '#experience'? 'active': ''}> <BiBook /></HashLink>
+      <HashLink to='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact'? 'active': ''}> <BiMessageSquareDetail /></HashLink>
     </nav>
   )
 }

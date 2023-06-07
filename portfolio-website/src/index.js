@@ -3,17 +3,26 @@ import ReactDOM from 'react-dom/client';
 
 import './index.css';
 import App from './App';
-import {BrowserRouter as Router, Route, Routes} from 'react-router-dom';
+import {HashRouter as Router, Route, Routes} from 'react-router-dom';
 import AboutPage from './components/about_page/AboutPage';
 import ProjectsPage from './components/project_page/ProjectsPage';
 
 import NotFound from './components/notfound/NotFound';
+import ScrollToTop from './Helper/ScrollToTop';
+
+// const router = createHashRouter([
+//     {
+//       path: "/*",
+//       element: <App />,
+//     }
+//   ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <Router>
         {/* <App /> */}
-        <Routes>
+        <ScrollToTop />
+        <Routes basename="/">
 
             <Route path='*' element={<NotFound />} />
             <Route exact path="/" element={<App />}/>

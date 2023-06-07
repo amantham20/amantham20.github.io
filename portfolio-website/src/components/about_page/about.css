@@ -46,7 +46,10 @@
 }
 
 .edu{
-    font-size: 1.7rem;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--color-primary);
+
 }
 
 .cetre{
@@ -107,5 +110,76 @@
     .Courses{
         grid-template-columns: 1fr;
     }
+    .technologies{
+        justify-content: center;
+    }
+    .TechName{
+        text-align: center;
+        margin-top: 20px;
+    }
 
+    .MoreAbout__me{
+        width:65%;
+        margin: 0 auto 3rem;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+    .MoreAbout__container{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+    .MoreAbout__container_R{
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+}
+
+.dipolama{
+    margin-bottom: 1rem;
+}
+
+.backtoHome{
+    margin-left: 100px;
+    display: flex;
+}
+
+.iconLower{
+    margin-top: 5px;
+    margin-right: 3px;
+}
+
+.MoreAbout__me{
+    width:100%;
+    aspect-ratio: 1;
+    border-radius: 2rem;
+    display:grid;
+    place-items:center;
+
+}
+
+.MoreAbout__me_img{
+    border-radius: 2rem;
+    overflow: hidden;
+}
+
+.MoreAbout__container{
+    display: grid;
+    grid-template-columns: 35% 50%;
+    gap: 15%;
+}
+
+.MoreAbout__container p{
+    margin: 1rem 0  2rem 0;
+}
+
+.MoreAbout__container_R{
+    display: grid;
+    grid-template-columns: 50% 35%;
+    gap: 15%;
+}
+
+.MoreAbout__container_R p{
+    margin: 1rem 0  2rem 0;
 }

@@ -12,6 +12,8 @@ import {FaTwitter} from 'react-icons/fa'
 import {FaGithub} from 'react-icons/fa'
 import {SiDevpost} from 'react-icons/si'
 
+import { HashLink } from 'react-router-hash-link';
+
 
 import {BiCoffee} from 'react-icons/bi'
 
@@ -22,10 +24,10 @@ const Footer = () => {
 
 
           <ul className='permalinks'>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#experience">Experiences</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><HashLink smooth to="#home">Home</HashLink></li>
+            <li><HashLink smooth to="#about">About</HashLink></li>
+            <li><HashLink smooth to="#experience">Experiences</HashLink></li>
+            <li><HashLink smooth to="#contact">Contact</HashLink></li>
           </ul>
 
           <div className='footer__socials'>

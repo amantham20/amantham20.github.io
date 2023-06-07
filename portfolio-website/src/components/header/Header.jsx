@@ -13,7 +13,7 @@ const Header = () => {
   return (
    <section id='home' className='sect'>
    
-         <a href={CV} target="_blank" download className='btn resumebtn sm-none'>Resumé</a>
+         <a href={CV} target="_blank" download="AmanResume.pdf" className='btn resumebtn sm-none'>Resumé</a>
      <div className='container header__container'>
        {/* <div className='nametag'>
          

@@ -2,12 +2,16 @@ import React from 'react'
 import { useState } from 'react'
 import './Tabs.css'
 
-const Tabs = ({children}) => {
-  const [activeTab, setActiveTab] = useState(children[2].props.label);
+const Tabs = ({children, disabled=false, setInitial=0}) => {
+  const [activeTab, setActiveTab] = useState(children[setInitial].props.label);
 
   const handleClick = (e, newActiveTab) =>{
     e.preventDefault();
     setActiveTab(newActiveTab);
+  }
+
+  if (disabled) {
+    return null
   }
 
   return (
@@ -28,4 +32,4 @@ const Tabs = ({children}) => {
   )
 }
 
-export {Tabs}
+export default Tabs
