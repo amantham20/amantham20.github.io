@@ -5,6 +5,8 @@ import {BsGithub} from 'react-icons/bs'
 // import {BsDribbble} from 'react-icons/bs'
 import {BsInstagram} from 'react-icons/bs'
 
+import './header.css'
+
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>

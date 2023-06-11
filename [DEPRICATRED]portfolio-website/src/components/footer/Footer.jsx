@@ -24,10 +24,10 @@ const Footer = () => {
 
 
           <ul className='permalinks'>
-            <li><HashLink smooth to="#home">Home</HashLink></li>
-            <li><HashLink smooth to="#about">About</HashLink></li>
-            <li><HashLink smooth to="#experience">Experiences</HashLink></li>
-            <li><HashLink smooth to="#contact">Contact</HashLink></li>
+            <li><HashLink smooth="true" to="#home">Home</HashLink></li>
+            <li><HashLink smooth="true" to="#about">About</HashLink></li>
+            <li><HashLink smooth="true" to="#experience">Experiences</HashLink></li>
+            <li><HashLink smooth="true" to="#contact">Contact</HashLink></li>
           </ul>
 
           <div className='footer__socials'>

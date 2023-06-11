@@ -98,7 +98,7 @@ const About = () => {
         {/* </div> */}
 
 
-        <div className='live_block'><span class="blink_me">Live <span class="dot"></span></span></div>
+        <div className='live_block'><span className="blink_me">Live <span className="dot"></span></span></div>
         <div className='about__cards'>
           <artice className='about__card'>
             <BiCoffeeTogo className='about__icon' />

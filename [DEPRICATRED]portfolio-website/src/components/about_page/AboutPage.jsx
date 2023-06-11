@@ -778,7 +778,10 @@ const AboutPage = () => {
           
 
           <div>
-
+          <h2 className='headingTag_activity'>When I am <span className='status_tab'> <span className='dot__active'/> Active</span>  at <span className='keyboard'>🧑🏾‍💻</span>!</h2>
+          
+          <p>I currently work for Auto-Owners Insurance as Software Development Intern For Corporate Data Management (Lot of SQL). <br />During the semester, I am involved with Acadamic Governance, Teaching Assistantship for Computer Science Department in College of Engieering MSU, and Apple Design Lab. I have recently been working on reseach on Genetic Programing Code Synthesis with Dr.Banzaf and Abstract Algebra with Dr.Levin.   </p>
+          
           <p>I actively participate in hackathons and pitch competitions. These events provide a platform for me to showcase my problem-solving skills, creativity, and teamwork in a fast-paced, collaborative environment. I thrive on the challenge of creating innovative solutions and pitching them to a panel of judges or potential investors. The intense and dynamic nature of these events fuels my passion for technology and entrepreneurship, pushing me to think outside the box and constantly learn and grow. </p>
 
           <p>My ultimate passion lies in crafting stories that deeply connect with people, and I've discovered that entrepreneurship provides me with the perfect avenue to continue sharing them.</p>
@@ -805,7 +808,8 @@ const AboutPage = () => {
 
         <div>
           <br />
-        <h2>When I am AFK!</h2>
+        <h2 className='headingTag_activity'>When I am <span className='status_tab'> <span className='dot__inactive'/> Away</span> from <span className='keyboard'>⌨️</span>!</h2>
+
         <p>I find joy in exploring new places and experiencing different cultures. Rather than relying solely on GPS or technology, I prefer the old-fashioned approach of engaging with locals and asking for directions. This not only allows me to navigate the unfamiliar terrain but also creates opportunities for meaningful connections and conversations along the way. I believe that these personal interactions enhance the richness of my travel experiences and provide a deeper understanding of the places I visit.</p>
         <p> I also enjoy casually playing ultimate frisbee. It's a sport that I find both fun and challenging, providing a great way to stay active and socialize with friends.</p>
         <p>Each year, I strive to acquire new skills and earn certifications. As a result, I have obtained a green belt in Judo, completed a Motorcycling Endorsement course, and learned how to sail.</p>
