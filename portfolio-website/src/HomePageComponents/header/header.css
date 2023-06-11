@@ -1,0 +1,208 @@
+#home {
+    height: 100vh;
+    padding-top: 22vh;
+    overflow: hidden;
+    background: linear-gradient(-45deg, #da5c36, #b43264, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 22s ease infinite;
+    margin-top: 0;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.header__container {
+    text-align: center;
+    height: 100%;
+    position: relative;
+
+}
+
+.none{
+    /* display: none;
+     */
+     max-height: 3px;
+     margin: 0;
+}
+
+
+.cta {
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+.header__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8 rem;
+    position: absolute;
+    left: 0;
+    bottom: 3rem;
+    
+}
+
+/* .header__socials > a {
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+
+.header__socials > a:last-child {
+    padding-bottom: 0.3rem;
+} */
+
+.header__socials::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-white);
+}
+
+.me {
+    background: var(--color-primary);
+    background: linear-gradient(var(--color-primary), transparent);
+    width: 22rem;
+    height: 30rem;
+    position: absolute;
+    left: calc(50% - 11rem);
+    margin-top: 4rem;
+    border-radius: 12rem 12rem 0 0;
+    overflow: hidden;
+    padding: 5rem 1.5rem 1.5rem 1.5rem;
+}
+.txt{
+    text-align: left !important;
+}
+
+.top1,
+.bottom1 {
+    color: rgba(255, 255, 255, 0.7) !important;
+    text-align: left;
+
+}
+
+.top2,
+.bottom2 {
+    color: rgba(255, 255, 255, 0.5) !important;
+    text-align: left;
+}
+
+.top3,
+.bottom3 {
+    color: rgba(255, 255, 255, 0.4) !important;
+    text-align: left;
+
+}
+
+table{
+    /* display: flex; */
+    margin-left: auto;
+    margin-right: auto;
+    /* left: 20%; */
+    transform: translateX(3vw);
+    border-collapse: collapse;
+
+}
+tr{
+    /* padding-top: 1em; */
+    padding-top: -15rem !important;
+
+}
+
+.lg-md-none{
+    display: none;
+}
+.resumebtn{
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    font-size: 15px;
+    padding: 0.6rem, 0.75rem;
+    margin-right: 10vw!important;
+}
+
+.scroll__down{
+    position: absolute;
+    right:-2.3rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+@media screen and (max-width: 1024px) {
+    #home {
+        height: 80vh;
+        /*  might have to change the vh from 68 to 100 */
+    }
+    h1{
+        font-size: 1.4rem;
+    }
+    .lg-md-none{
+        display: none;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    #home {
+        height: 100vh;
+    }
+    .header__socials{
+        display: none;
+    }
+    .lg-md-none{
+        display: block;
+    }
+    .b1{
+        color: rgba(255, 255, 255, 0.8) !important;
+    }
+    .b2{
+    color: rgba(255, 255, 255, 0.6) !important;
+        
+    }
+    .b3{
+    color: rgba(255, 255, 255, 0.5) !important;
+        
+    }
+    .b4{
+    color: rgba(255, 255, 255, 0.4) !important;
+        
+    }
+    .b5{
+    color: rgba(255, 255, 255, 0.3) !important;
+        
+    }
+    .b6{
+    color: rgba(255, 255, 255, 0.2) !important;
+        
+    }
+
+    .btn{
+        margin-top: 3rem;
+        /* position: fixed; */
+        /* bottom: 2rem; */
+    }
+    #home{
+        padding-top: 17vh;
+    }
+
+
+}

@@ -1,0 +1,45 @@
+.tabBar{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    /* border-bottom: 2px solid blue; */
+}
+
+@media screen and (max-width: 600px) {
+    .tabBar{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+        align-items: center;
+        margin: 10px 50px !important;
+    }
+    .tabBar > a{
+        margin: 0 auto !important;
+    }
+    .tbcontent{
+        padding: 1rem auto !important;
+    
+    }
+}
+
+.tabBar > a{
+    margin: 0 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    border-radius: 0.7rem;
+}
+
+.currenttb{
+    /* color: blue; */
+    font-weight: bold;
+    border: 2px solid var(--color-primary);
+    transition: var(--transition);
+    border-radius:  15px;
+}
+
+.tbcontent{
+    padding: 1rem 2rem;
+
+}
