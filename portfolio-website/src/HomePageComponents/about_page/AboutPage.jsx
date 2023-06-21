@@ -81,7 +81,7 @@ import { IoArrowBack } from 'react-icons/io5'
 
 import ME from '../../assets/AmanPhoto.jpg'
 import TRAVEL from '../../assets/Travel.jpg'
-import SHADOW from '../../assets/Travel.jpg'
+import SHADOW from '../../assets/shadow.png'
 
 import { Link } from 'gatsby';
 
@@ -778,7 +778,7 @@ const AboutPage = () => {
           
 
           <div>
-          <h2 className='headingTag_activity'>When I am <span className='status_tab'> <span className='dot__active'/> Active</span>  at <span className='keyboard'>🧑🏾‍💻</span>!</h2>
+          <h2 className='headingTag_activity'>When I am <span className='status_tab'> <span className='dot__active'/> Active</span>  at <span className='keyboard'>👨🏽‍💻</span>!</h2>
           
           <p>I currently work for Auto-Owners Insurance as Software Development Intern For Corporate Data Management (Lot of SQL). <br />During the semester, I am involved with Acadamic Governance, Teaching Assistantship for Computer Science Department in College of Engieering MSU, and Apple Design Lab. I have recently been working on reseach on Genetic Programing Code Synthesis with Dr.Banzaf and Abstract Algebra with Dr.Levin.   </p>
           

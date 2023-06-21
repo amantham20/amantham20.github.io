@@ -11,7 +11,7 @@ module.exports = {
     image: './src/favicon.svg'
 
   },
-  plugins: ["gatsby-plugin-postcss", `gatsby-plugin-anchor-links`,
+  plugins: ["gatsby-plugin-postcss", `gatsby-plugin-anchor-links`, 'gatsby-plugin-sass',
   {
     resolve: `gatsby-plugin-manifest`,
     options: {
