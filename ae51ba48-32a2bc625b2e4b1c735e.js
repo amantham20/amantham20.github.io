@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkportfolio_website=self.webpackChunkportfolio_website||[]).push([[260],{155:function(t,e,n){n.d(e,{O8Q:function(){return i}});var o=n(4405);function i(t){return(0,o.w_)({tag:"svg",attr:{viewBox:"0 0 512 512"},child:[{tag:"path",attr:{fill:"none",strokeLinecap:"round",strokeLinejoin:"round",strokeWidth:"48",d:"M244 400L100 256l144-144M120 256h292"}}]})(t)}}}]);
-//# sourceMappingURL=ae51ba48-32a2bc625b2e4b1c735e.js.map
