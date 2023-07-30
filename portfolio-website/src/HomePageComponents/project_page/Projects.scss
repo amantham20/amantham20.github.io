@@ -97,3 +97,16 @@
     }
   }
 }
+
+
+.project-photo {
+  width: 100%;   /* This will make the image stretch to fill the width of its container */
+  height: auto;  /* This will ensure the aspect ratio of the image is maintained */
+  display: block;
+  margin: 0 auto;
+  max-height: 400px;
+}
+
+.eventLocation{
+  color: var(--)
+}

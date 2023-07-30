@@ -6,6 +6,7 @@ import App from './App';
 import {HashRouter as Router, Route, Routes} from 'react-router-dom';
 import AboutPage from './components/about_page/AboutPage';
 import ProjectsPage from './components/project_page/ProjectsPage';
+';
 
 import NotFound from './components/notfound/NotFound';
 import ScrollToTop from './Helper/ScrollToTop';
