@@ -564,7 +564,7 @@ const fall2022 = [{
   Semester: 'Fall 2022',
   Projects: [], // fill this
   Content: ['Numpy', 'Agent Based Modeling', `Modeling with ODE's(Ordinary Differential Equations)`, 'Data Prediction'], //fill this later
-  Desc: "Learned about computational modeling and data analysis. Using python libraries to solve problems.",
+  Desc: "Formally learned python. learned techniques for computational modeling and data analysis including NumPy, agent-based modeling, modeling with ordinary differential equations, and data prediction.",
   tags: ['Data Analysis', 'Computer Science', 'Programming'],
 }, {
   id: 23,
@@ -573,7 +573,7 @@ const fall2022 = [{
   Semester: 'Fall 2022',
   Projects: ['Ethics in AI', 'Ethics in Software Development', 'Privacy of Users'],
   Content: ['Intellectual Property', 'Privacy', 'Professional Ethics', 'Social Implications of Computing', 'Freedom of Speech'],
-  Desc: "Learned about ethics in computer science.",
+  Desc: "Learned about all the ways technology can go horribly wrong if you don't consider ethics. Examined ethical issues in computer science including intellectual property, privacy, professional ethics, social implications of computing, and freedom of speech.",
   tags: ['Ethics', 'Computer Science', 'Programming'],
 }, {
   id: 24,
@@ -582,7 +582,7 @@ const fall2022 = [{
   Semester: 'Fall 2022',
   Projects: ['Caching', 'Signals and Processes', 'Pthreads and Deadlocks'],
   Content: ['Architecture', 'Operating Systems', 'Concurrency', 'Memory Management', 'Networking'],
-  Desc: "Learned about computer systems how they work and current implementations.",
+  Desc: "Yaaaaah. First CS Lecture Class. Studied key concepts in computer systems including architecture, operating systems, concurrency, memory management, and networking.",
   tags: ['Computer Systems', 'Computer Science', 'Programming'],
 }, {
   id: 25,
@@ -591,7 +591,7 @@ const fall2022 = [{
   Semester: 'Fall 2022',
   Projects: ['Angry Sparty', `Harold's Magic Musical Machine`],
   Content: [`Software Development`, `Software Design`, `Software Testing`, `Software Implementation`, `Software Maintenance`, `Object Oriented Programming`, `Design Patterns`],
-  Desc: "Learned about patterns in Software Development and how to implement them.",
+  Desc: "Spent many sleepless nights debugging complex software projects. Applied software engineering principles and design patterns through team projects and assignments. Gained experience with the full software development lifecycle",
   tags: ['Software Development', 'Computer Science', 'Programming'],
 }, {
   id: 26,
@@ -600,7 +600,7 @@ const fall2022 = [{
   Semester: 'Fall 2022',
   Projects: [],
   Content: ['Arithmetic', 'Algebraic Structures', 'Polynomials', 'Fields', 'Galois Theory', 'Rings', `Fermat's theorem`, `Modular arithmetic`],
-  Desc: "Learned about abstract algebra and how to prove things.",
+  Desc: "we have come far from counting just sheep. Studied abstract algebraic structures including groups, rings, fields, and polynomials. Proved theorems related to these structures. Applied concepts such as Fermat's theorem and modular arithmetic.",
   tags: ['Math', 'Abstract Algebra', 'Cryptography'],
 
 }, {
@@ -610,7 +610,7 @@ const fall2022 = [{
   Semester: 'Fall 2022',
   Projects: ['Probability Distributions', 'Conditional Probability', 'Regression', 'Variance', 'Hypothesis Testing', 'Confidence Intervals'],
   Content: [],
-  Desc: "Learned about probability and statistics.",
+  Desc: "Fancy fortune telling. Gained an understanding of probability, random variables, expectation, distribution functions, hypothesis testing, regression, correlation, analysis of variance, and design of experiments.",
   tags: ["Computer Science", "Statistics", "Probability"],
 }]
 
@@ -620,27 +620,27 @@ const spring2023 = [
     courseName: 'CMSE 202 Computational Modeling and Data Analysis II',
     credits: '4',
     Semester: 'Spring 2023',
-    Projects: [],
-    Content: [],
-    Desc: "Upcoming Course",
+    Projects: ['catan using genetic algorithm', 'machine learning prediction for rainfall'],
+    Content: ['Object Oriented Programing', 'Version Control (git)', 'Reading and Creating Documentation', 'Comand Line interfacing', 'Plotting', 'Visualization', "signal processing" ,"graph theory", "machine learning", "image analysis", "Pandas", "Agent Based Modeling", "Regression Logistic, single and Multi", "Support Vector Machine", "Principal component analysis", ],
+    Desc: "Apply Object Oriented Programming to build computational models and analyze complex data sets. Learn techniques like machine learning, data visualization, and simulation modeling to extract insights from data.",
     tags: ['Data Analysis', 'Computer Science', 'Programming'],
   }, {
     id: 29,
     courseName: 'CSE 830 Design and Theory of Algorithms',
     credits: '3',
     Semester: 'Spring 2023',
-    Projects: [],
-    Content: [],
-    Desc: "Upcoming Course",
+    Projects: ['Performace Analysis Report', 'Algorithm Design Report'],
+    Content: ['Asymptotic Analysis', 'Divide and Conquer', 'Dynamic Programming', 'Greedy Algorithms', 'Graph Algorithms', 'NP Completeness', 'Approximation Algorithms'],
+    Desc: "Study advanced algorithms and analyze their complexity and performance. Learn techniques like dynamic programming, greedy algorithms, and graph algorithms to design efficient solutions.",
     tags: ['Algorithms', 'Computer Science', 'Programming'],
   }, {
     id: 30,
     courseName: 'CSE 860 Foundations of Computer Science',
     credits: '3',
     Semester: 'Spring 2023',
-    Projects: [],
-    Content: ['Finite Automata', 'Regular Expressions', 'Turing Machines', 'Compilers'],
-    Desc: "Upcoming Course",
+    Projects: ['Presentations', 'Proofs', 'Reductions'],
+    Content: ['Finite Automata', 'Regular Expressions', 'Turing Machines', 'Decidability', 'Complexity Theory', 'NP Completeness', 'P and NP', 'Reductions', ],
+    Desc: "Learn foundations of computation including automata, computability, and complexity theory. Study important concepts like NP-completeness and reductions between computational problems.",
     tags: ['Computer Science', 'Math', 'Theory of Computation'],
   }, {
     id: 31,
@@ -648,10 +648,12 @@ const spring2023 = [
     credits: '3',
     Semester: 'Spring 2023',
     Projects: [],
-    Content: [],
-    Desc: "Upcoming Course",
+    Content: ['Sequences', 'Series', 'Topology', 'Continuity', 'Differentiation', 'Integration', 'Metric Spaces', 'Convergence', 'Compactness', 'Connectedness', 'Uniform Continuity', 'Uniform Convergence', 'Power Series', 'Fourier Series', 'Differentiation of Functions of Several Variables',  'Stokes Theorem'],
+    Desc: "Learn foundations of computation including automata, computability, and complexity theory. Study important concepts like NP-completeness and reductions between computational problems.",
     tags: ['Math', 'Analysis I', 'Proofs'],
   }];
+
+
 
 const HighSchool = [
   {
@@ -659,9 +661,9 @@ const HighSchool = [
     courseName: 'AP Computer Science',
     credits: '4',
     Semester: '2019',
-    Projects: [],
-    Content: [],
-    Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    Projects: ["Bric Breaker", "Tic Tac Toe", "Fractals"],
+    Content: ["CPP", "Java", "Object Oriented Programming", "Data Structures", "Algorithms", "Recursion", "Sorting"],
+    Desc: "Learned fundamentals of programming and computer science concepts like data structures, algorithms, and object-oriented programming using Java. Completed projects like text-based games, and graphics programs",
     tags: ['AP', 'Computer Science', 'Programming'],
   }, {
     id: 2,
@@ -669,8 +671,8 @@ const HighSchool = [
     credits: '4',
     Semester: '2019',
     Projects: [],
-    Content: [],
-    Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    Content: ["Mechanics", "Electricity", "Magnetism", "Optics", "Modern Physics", "Quantum Physics"],
+    Desc: "Studied concepts of classical and modern physics including mechanics, electricity, magnetism, optics, and modern physics. Performed hands-on lab experiments and solved complex theoretical problems.",
     tags: ['AP', 'Physics'],
   }, {
     id: 3,
@@ -678,8 +680,8 @@ const HighSchool = [
     credits: '4',
     Semester: '2019',
     Projects: [],
-    Content: [],
-    Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    Content: ["Limits", "Derivatives", "Integrals", "Series"],
+    Desc: "Covered concepts of differential and integral calculus including limits, derivatives, integrals, and series",
     tags: ['Math', 'AP', 'Calculus'],
   }, {
     id: 4,
@@ -688,7 +690,7 @@ const HighSchool = [
     Semester: '2020',
     Projects: [],
     Content: [],
-    Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    Desc: "Learned foundations of business including marketing, finance, management, and entrepreneurship.",
     tags: ['Business'],
   }]
 
@@ -699,8 +701,8 @@ const clubsHS = [
     credits: 'Club',
     Semester: '2018-2020',
     Projects: [],
-    Content: [],
-    Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    Content: ['Threads', 'Networking', 'Operating Systems', 'Computer Architecture', 'Computer Science'],
+    Desc: "Learned more advanced computer science concepts beyond the classroom curriculum. ",
     tags: ['Computer Science', 'Programming'],
   }, {
     id: 2,
@@ -708,26 +710,26 @@ const clubsHS = [
     credits: 'Club',
     Semester: '2016-2020',
     Projects: [],
-    Content: [],
-    Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    Content: ['Electronics', 'Soldering', 'Circuits', 'Troubleshooting', 'HAM Radio',],
+    Desc: "Designed and built electronic circuits and devices. Gained hands-on experience with soldering, testing equipment, and troubleshooting issues.",
     tags: ['Electronics'],
   }, {
     id: 3,
     courseName: 'FIRST Robotics Club 5509',
     credits: 'Club',
     Semester: '2016-2020',
-    Projects: [],
+    Projects: ['Robotics', 'Engineering', 'Programming', 'CAD', 'Gamma Robot Steam Power', 'Delta Robot Power up', 'Eplison Robot Deep Space', 'Zeta Robot Infinite Rechage', 'FIRST', 'Deans List'],
     Content: [],
-    Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    Desc: "Part of robotics team that designed, built, fabricated, and programmed robots to compete in FIRST Robotics challenges. Learned engineering, teamwork, and problem solving.",
     tags: ['Robotics'],
   }, {
     id: 4,
     courseName: 'Business Professionals of America',
     credits: 'Club',
     Semester: '2020',
-    Projects: [],
+    Projects: ['Clean Energy Plan', 'Web Design', 'Fundraising', 'web development'],
     Content: [],
-    Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    Desc: "Studied business concepts and worked on leadership skills. Participated in business plan competitions, fundraising, and community service projects. Worked as part of web-design team",
     tags: ['Business'],
   }, {
     id: 5,
@@ -736,7 +738,7 @@ const clubsHS = [
     Semester: '2017-2020',
     Projects: [],
     Content: [],
-    Desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    Desc: "Volunteered as a mentor to provide guidance and support to younger students. Developed leadership, communication, and interpersonal skills.",
     tags: [],
   }
 

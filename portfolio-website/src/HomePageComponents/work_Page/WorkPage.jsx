@@ -5,7 +5,7 @@ import React from 'react'
 const WorkPage = () => {
   return (
     <div>
-        
+        Work in progress
     </div>
   )
 }

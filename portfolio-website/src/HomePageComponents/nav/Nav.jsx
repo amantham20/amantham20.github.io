@@ -89,7 +89,7 @@ const Nav = () => {
       {/* <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}> <BsArrowRightShort /></a> */}
       <Link className='addiPages' to="/about">About <span className='iconContainer'><BsArrowRightShort  className='iconNext' /> </span> </Link>
       <Link className='addiPages' to="/project">Projects <span className='iconContainer'><BsArrowRightShort  className='iconNext' /> </span> </Link>
-      <Link className='addiPages' to="/work">Wor <span className='iconContainer'><BsArrowRightShort  className='iconNext' /> </span> </Link>
+      <Link className='addiPages' to="/work">Work <span className='iconContainer'><BsArrowRightShort  className='iconNext' /> </span> </Link>
     </nav>
   )
 }
