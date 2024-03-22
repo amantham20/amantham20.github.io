@@ -29,7 +29,7 @@ const Header = () => {
               <h1 className='b1'>a Front end developer</h1>
               <h1 className='b2'>a Tech enthusiast</h1>
               <h1 className='b3'>a Programmer</h1>
-              <h1 className='b4'>a Web Deigner</h1>
+              <h1 className='b4'>a Web designer</h1>
               <h1 className='b5'>an Engineer</h1>
               <h1 className='b6'>a Gamer</h1>
 
@@ -74,7 +74,7 @@ const Header = () => {
             <tr>
                 <th></th>
                 <th>
-                    <h1 className="txt rest bottom2">a Web-deigner</h1>
+                    <h1 className="txt rest bottom2">a Web-designer</h1>
                 </th>
             </tr>
             <tr>
